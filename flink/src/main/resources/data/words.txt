@@ -1,0 +1,10 @@
+Microsoft Windows [版本 10.0.17134.345]
+(c) 2018 Microsoft Corporation。保留所有权利。
+C:\Users\xiaobing\IdeaProjects\test\practiceparent>
+hello world test
+原始链表为:5:e 4:d 3:c 2:b 1:a  当前容量5
+获取key为4的元素之后的链表:4:d 5:e 3:c 2:b 1:a  当前容量5
+新添加一个key为6之后的链表:6:f 4:d 5:e 3:c 2:b  当前容量5
+移除key=3的之后的链表:6:f 4:d 5:e 2:b  当前容量5
+
+Process finished with exit code 0

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jvm" />
+        <module name="storm" />
+        <module name="flumeinterceptor" />
+        <module name="scala" />
+        <module name="design-model" />
+        <module name="dubbo" />
+        <module name="flink" />
+        <module name="DataStruct" />
+        <module name="java" />
+        <module name="web" />
+        <module name="spark" />
+        <module name="kafka" />
+        <module name="lock" />
+        <module name="log-collector" />
+        <module name="dataworks" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
