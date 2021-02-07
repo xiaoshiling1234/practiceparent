@@ -20,6 +20,32 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.xolstice.maven.plugins</groupId>-->
+<!--                <artifactId>protobuf-maven-plugin</artifactId>-->
+<!--                <version>0.6.1</version>-->
+<!--                <extensions>true</extensions>-->
+<!--                <configuration>-->
+<!--                    &lt;!&ndash;默认值&ndash;&gt;-->
+<!--                    <protoSourceRoot>${project.basedir}/proto/protoConfig</protoSourceRoot>-->
+<!--                    &lt;!&ndash;默认值&ndash;&gt;-->
+<!--                    &lt;!&ndash;<outputDirectory>${project.build.directory}/generated-sources/protobuf/java</outputDirectory>&ndash;&gt;-->
+<!--                    <outputDirectory>${project.build.sourceDirectory}</outputDirectory>-->
+<!--                    &lt;!&ndash;设置是否在生成java文件之前清空outputDirectory的文件，默认值为true，设置为false时也会覆盖同名文件&ndash;&gt;-->
+<!--                    <clearOutputDirectory>false</clearOutputDirectory>-->
+<!--                    &lt;!&ndash;默认值&ndash;&gt;-->
+<!--                    <temporaryProtoFileDirectory>${project.build.directory}/protoc-temp</temporaryProtoFileDirectory>-->
+<!--                    <protocExecutable>${project.basedir}/proto/protobin/protoc3.6.1.exe</protocExecutable>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            <goal>compile</goal>-->
+<!--                            <goal>test-compile</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
         </plugins>
     </build>
     <dependencies>
@@ -54,7 +80,13 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.66</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.4.0</version>
+        </dependency>
     </dependencies>
+
 
 
 </project>
