@@ -11,6 +11,7 @@
         <module name="storm" />
         <module name="flumeinterceptor" />
         <module name="scala" />
+        <module name="mr" />
         <module name="design-model" />
         <module name="dubbo" />
         <module name="flink" />

@@ -28,6 +28,7 @@
         <module>lock</module>
         <module>dubbo</module>
         <module>dataworks</module>
+        <module>mr</module>
     </modules>
 
     <!-- maven依赖 -->
