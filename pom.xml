@@ -29,6 +29,7 @@
         <module>dubbo</module>
         <module>dataworks</module>
         <module>mr</module>
+        <module>netty</module>
     </modules>
 
     <!-- maven依赖 -->
